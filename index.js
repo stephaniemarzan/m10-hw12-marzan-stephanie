@@ -29,3 +29,16 @@ class Car {
     }
 
 }
+
+/* 1. Create a variable named `mySweetRide` and assign it a car created with your class using the following arguments:
+    - `make`: 'Pontiac'
+    - `model`: 'Fiero'
+    - `make`: 1988
+1. call `mySweetRide`'s `honk` method once
+1. call `mySweetRide`'s `performMaintenance` method once */
+
+let mySweetRide = new Car ('Pontiac', 'Fiero', 1988)
+
+mySweetRide.honk()
+
+mySweetRide.performMaintenance()
